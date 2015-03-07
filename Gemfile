@@ -15,6 +15,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 
+gem 'webmock'
+gem 'rest-client'
+
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
@@ -24,6 +27,7 @@ end
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
+  gem 'binding_of_caller'
   gem 'pry-rails'
   gem 'pry-rescue'
   gem 'rspec-rails'
@@ -33,7 +37,6 @@ group :development, :test do
   gem 'spring'
 end
 group :test do
-  gem 'faker'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
