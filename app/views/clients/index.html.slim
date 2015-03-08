@@ -1,0 +1,15 @@
+.row
+  .col-md-6
+    = render_readme
+  .col-md-6
+    table.table
+      thead
+        tr
+          th id
+          th name
+          th email
+          th invoice_id
+          th fiscal_id
+          th created_at
+      tbody
+        = render collection

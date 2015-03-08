@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  root 'clients#index'
+
   def api_version(version, &routes)
     api_constraint = ApiConstraint.new(version: version)
     scope(module: "v#{version}", constraints: api_constraint, &routes)
