@@ -13,7 +13,7 @@ https://bahamas.herokuapp.com/
 
 Source code: https://github.com/pearce89/bahamas.git
 
-[![Build Status](https://circleci.com/gh/pearce89/bahamas.png?circle-token=:circle-token)](https://circleci.com/gh/pearce89/bahamas.png?circle-token=:circle-token)
+[![Build Status](https://circleci.com/gh/pearce89/bahamas.png?circle-token=:circle-token)](https://circleci.com/gh/pearce89/bahamas)
 
 ----------
 
